@@ -1,0 +1,37 @@
+# Core Streamlit and dependencies
+streamlit>=1.45.0
+click>=8.1.3,<9.0.0  # Explicitly setting compatible click version
+
+altair
+pandas
+numpy
+matplotlib
+seaborn
+Pillow
+
+# Optional but commonly used with Streamlit
+plotly
+openpyxl  # For Excel support
+pyarrow  # For better pandas performance
+
+# Web/API utilities
+requests
+beautifulsoup4
+
+# Machine learning (if needed)
+scikit-learn
+tensorflow  # or tensorflow-cpu for lighter install
+
+# Audio/Text processing (if needed)
+gTTS
+pydub
+
+# Environment management
+python-dotenv
+
+# Development tools
+black
+ruff
+
+# LangChain ecosystem
+langgraph
